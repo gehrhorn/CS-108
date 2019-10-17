@@ -1,0 +1,81 @@
+/* As hex codes */
+
+/* Main Primary color */
+body {
+  background-color: #267158;
+} 
+
+p, h1, h2, h3, li {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3 {
+  border: 2px solid #AA5F39;
+  border-radius: 5px;
+  padding: 15px;
+  border-left-width: 8px;
+  font-weight: bolder;
+}
+
+h2,h3{
+  padding: 8px;
+}
+
+a.color-complement-0 {
+  color: #003926
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  float: left;
+  margin-right: 8px;
+}
+
+img:hover {
+  box-shadow: 2px 2px 3px 3px #551d00;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+a:link{
+  color: #FFC7AA;
+}
+
+
+
+a:visited {
+  color: #71AA97;
+}
+
+a:hover{ 
+  color: #803915;
+}
+
+ul {
+  list-style: circle;
+}
+
+/* li {
+  display: inline;
+} */
+
+.color-primary-1 { color: #71AA97 }
+.color-primary-2 { color: #478D76 }
+.color-primary-3 { color: #0E553E }
+.color-primary-4 { color: #003926 }
+
+.color-complement-0 { color: #AA5F39 }	/* Main Complement color */
+.color-complement-1 { color: #FFC7AA }
+.color-complement-2 { color: #D48E6A }
+.color-complement-3 { color: #803915 }
+.color-complement-4 { color: #551D00 }
+

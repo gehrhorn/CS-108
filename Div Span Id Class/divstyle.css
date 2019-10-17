@@ -1,0 +1,25 @@
+body {
+  background: gray;
+}
+
+span, div {
+  border-style: double;
+  border-color: darkgreen;
+  padding: 4px;
+}
+
+/* div {
+  border-style: double;
+  border-color: darkgreen;
+  padding: 4px;
+} */
+
+/* .city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+} */

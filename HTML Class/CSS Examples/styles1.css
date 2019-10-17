@@ -1,0 +1,56 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+/* Color and margin */
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+/* Background color */
+p, h2 {
+  /* background-color: tomato; */
+  color: whitesmoke;
+}
+
+/* Borders 
+https://www.w3schools.com/css/css_border.asp
+*/
+
+h2  {
+  border: 2px solid grey;
+  color: orchid;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+/* h1 {
+  border: 2px  tomato;
+} */
+
+/* Background image */
+/* body {
+  background-image: url("headshot.jpg");
+} */
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

@@ -1,0 +1,12 @@
+body {
+  background: gray;
+}
+
+#chapter2 {
+  color: darkred;
+}
+
+.firstSentance {
+  color: darkslateblue;
+  font-style: italic;;
+}
