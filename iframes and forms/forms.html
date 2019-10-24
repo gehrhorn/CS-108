@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <title>Lotsa forms</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<h2>Text</h2>
+<form>
+  First name:<br />
+  <input type="text" />
+</form>
+<hr />
+
+<h2>Radio</h2>
+<form>
+  <input type="radio" name="gender" value="male" checked /> Male<br />
+  <input type="radio" name="gender" value="female" /> Female<br />
+  <input type="radio" name="gender" value="other" /> Other
+</form>
+<hr />
+
+<h2>Select</h2>
+<form>
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+</form>
+<hr />
+
+<h2>Multi-select</h2>
+<form>
+    <select name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+</form>
+<hr />
+
+<h2>Textarea</h2>
+<form>
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea>
+</form>
+<hr />
+
+<h2>Button</h2>
+<form>
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+</form>
+<hr />
+
+<h2>Datalist</h2>
+<form>
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer" />
+    <option value="Firefox" />
+    <option value="Chrome" />
+    <option value="Opera" />
+    <option value="Safari" />
+  </datalist>
+  <input type="submit">
+</form>
+<hr />
+
+<h2>Fieldset example</h2>
+<form action="#">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>

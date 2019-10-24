@@ -1,0 +1,48 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    overflow: hidden;
+}
+
+div#content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 4000px;
+  border: none;
+  overflow: auto;
+}
+
+iframe {
+  border: none;
+  height: 100%;
+  width: 70vw;
+}
+
+div.btn-group {
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-color: #f1f1f1;
+}
+
+.btn-group button {
+  background-color: #f1f1f1; /*  background */
+  border: none; /*  border */
+  color: #000; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: default; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #555;
+  color: white;
+}
