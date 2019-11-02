@@ -2,13 +2,18 @@
 <head>
   <title>Navbars and iframes</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script>
+    function changePage(id) {
+      document.getElementById("frame-content").src = id + ".html"
+    }
+  </script>
 </head>
 
 <ul>
   <li class="nav"><a href="#">Home</a></li>
-  <li class="nav"><a href="products.html">Prodcuts</a></li>
+  <li class="nav" id="products" onclick="changePage(this.id)"><a href="#">Prodcuts</a></li>
   <li class="nav"><a href="about.html">About</a></li>
-  <li class="nav"><a href="contact.html">Contact</a></li>
+  <li class="nav"><a href="#">Contact</a></li>
 </ul>
 
 <div class="content">

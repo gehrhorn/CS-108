@@ -3,6 +3,7 @@
   <title>Lotsa forms</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <h2>Text</h2>
 <form>
   First name:<br />
@@ -12,14 +13,15 @@
 
 <h2>Radio</h2>
 <form>
-  <input type="radio" name="gender" value="male" checked /> Male<br />
-  <input type="radio" name="gender" value="female" /> Female<br />
-  <input type="radio" name="gender" value="other" /> Other
+  <input type="checkbox" name="gender" value="male" checked /> Male<br />
+  <label><input type="checkbox" name="gender" value="female" /> Female</label><br />
+  <input type="checkbox" name="gender" value="other" /> Other
 </form>
 <hr />
 
+
 <h2>Select</h2>
-<form>
+<form action="scripts/myscript.js">
     <select name="cars">
         <option value="volvo">Volvo</option>
         <option value="saab">Saab</option>
@@ -36,6 +38,7 @@
         <option value="saab">Saab</option>
         <option value="fiat">Fiat</option>
         <option value="audi">Audi</option>
+        <option value="ford">Ford</option>
       </select>
 </form>
 <hr />
@@ -68,10 +71,10 @@
   <input type="submit">
 </form>
 <hr />
-
+ 
 <h2>Fieldset example</h2>
 <form action="#">
-  <fieldset>
+  <fieldset id="disney">
     <legend>Personal information:</legend>
     First name:<br>
     <input type="text" name="firstname" value="Mickey">
@@ -81,4 +84,4 @@
     <br><br>
     <input type="submit" value="Submit">
   </fieldset>
-</form>
+</form> 
